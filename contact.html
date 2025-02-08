@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimi coiffure & beauté</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icones/favicongenerator.io (1)/favicongenerator.io/favicon-32x32.png">
+    <script src="js/javascript.js" defer></script>
+</head>
+<body class="images-fond">
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <a href="index.html"><img src="icones/logomodif.svg" alt="logo de mon site"></a> 
+            </div>
+             <!-- Menu qui se cache et s'affiche au clic -->
+              
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">&times;</a>
+                <ul class="menu">
+                    <li><a href="index.html"> <i class="bi bi-house"></i>Accueil</a></li>
+                    <li><a href="about.html"><i class="bi bi-file-person-fill"></i>Apropos</a></li>
+                    <li><a href="services.html">Nos services</a></li>
+                    <li><a href="contact.html"><i class="bi bi-telephone-fill"></i>Contact</a></li>
+                    <button id="bnt_reserver"><a href="https://www.planity.com/" target="_blank">Réserver</a></button>
+                </ul>
+            </div> 
+            <div class="burger">   
+                <a href="#" id="openBtn">
+                    <span class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="titre-page"> 
+            <h1>CONTACT</h1>
+        </div>
+        <div class="contact-form">
+                <h2>Formulaire de Contact</h2>
+                    <p>
+                        Nous serions ravis de répondre à vos questions, de vous aider à réserver un rendez-vous ou de recueillir vos avis. Remplissez le formulaire ci-dessous et nous reviendrons vers vous dans les plus brefs délais.
+                    </p>
+                <form id="contactForm">
+                    <div class="civility"> 
+                    </div>
+                        <fieldset> 
+                                       <legend>Civilité:</legend>
+                        <div class="form-group-civility">
+                            <input type="radio" id="mme" name="civility" value="Mme"><label for="mme">Mme</label>
+                            <input type="radio" id="mr" name="civility" value="M."><label for="mr">M.</label>
+                        </div>
+                        </fieldset>
+                    <div class="form-group">
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="name" rows="5" placeholder="Votre nom ici..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Prénom :</label>
+                        <input type="text" id="firstname" name="firstname"  placeholder="Votre prénom ici..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail :</label>
+                        <input type="email" id="email" name="email"  placeholder="Votre adresse mail ici..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone :</label>
+                        <input type="tel" id="phone" name="phone"  placeholder="Votre numéro de Téléphone ici..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reason">Objet :</label>
+                        <select id="reason" name="reason" required>
+                            <option value="" disabled selected>Choisissez une option</option>
+                            <option value="reservation">Réservation</option>
+                            <option value="information">Informations</option>
+                            <option value="avis">Avis</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
+                    </div>
+                    <div class="form-group-consent">
+                        <input type="radio" id="consent" name="consent" required>
+                        <label for="consent">"J'accepte que mes données personnelles soient collectées et utilisées conformément à la politique de confidentialité."</label>
+                    </div>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+        </div>
+
+    </main>
+    <footer>
+        <nav class="footer-container">
+            <!-- Logo et adresse -->
+            <div class="footer-logo">
+                <a href="index.html"> <img src="icones/logomodif.svg" alt="photo de mon logo"></a>
+                <a href=" https://www.google.fr/maps/place/MiMi+coiffure+%26+Beaut%C3%A9/@48.5864782,7.739399,3a,75y,277.9h,90t/data=!3m7!1e1!3m5!1sUeixUXdFY4hWLhLzJlFEQQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DUeixUXdFY4hWLhLzJlFEQQ%26yaw%3D277.90012!7i16384!8i8192!4m15!1m8!3m7!1s0x4796c8490936cac5:0x2810389ff5b5a51c!2s37+Rue+du+Faubourg-de-Saverne,+67000+Strasbourg!3b1!8m2!3d48.5865029!4d7.7392359!16s%2Fg%2F11c5lt84kq!3m5!1s0x4796c9a14b9724e5:0x8da0c2999f989054!8m2!3d48.5865029!4d7.7392359!16s%2Fg%2F11mqls58qb?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"> <p>37 rue Faubourg de Saverne <br> 67000, Strasbourg</p></a>
+                
+            </div>
+            <!-- Liens rapides -->
+            <div class="footer-links">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html"><i class="bi bi-house-door-fill"></i> Accueil</a></li>
+                    <li><a href="about.html"><i class="bi bi-file-person"></i> À propos</a></li>
+                    <li><a href="services.html">Nos services</a></li>
+                </ul>
+            </div>
+            <!-- Informations légales -->
+            <div class="footer-legal">
+                <h3>Informations légales</h3>
+                <ul>
+                    <li><a href="mentionsLegales.html">Mentions légales</a></li>
+                    <li><a href="politique_confidentielite.html" target="_blank">Politique
+                            de confidentialité</a></li>
+                    <li><a href="cgu.html" target="_blank">CGU</a></li>
+                </ul>
+            </div>
+            <!-- Réseaux sociaux -->
+            <div class="footer-social">
+                <h3>Réseaux sociaux</h3>
+                <ul>
+                    <li><a href="https://fr-fr.facebook.com/" target="_blank"></i>facebook</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"></i>instagram</a></li>
+                    <li><a href="https://www.tiktok.com/login" target="_blank"></i>Tiktok</a></li>
+                </ul>
+            </div>
+            <!-- Contact -->
+            <div class="footer-contact">
+                <h3>Nous contacter</h3>
+                <ul>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <button><a href="https://www.planity.com/" target="_blank">Réserver</a></button>
+                    </li>
+                </ul>
+            </div>
+
+              <!-- Bannière de cookies -->
+              <div id="cookie">
+                <p>Nous utilisons des cookies pour améliorer votre expérience. En continuant, vous acceptez notre <a href="/politique-de-confidentialite" target="_blank">politique de confidentialité</a>.</p>
+                <button id="cookie-accepter">Accepter tous les cookies</button>
+                <button id="cookie-refuser">Refuser tous les cookies</button>
+                <button id="cookie-personnaliser">Personnaliser</button>
+        </div>
+
+         <!-- Fenêtre de personnalisation des cookies -->
+        <div id="reglage-cookie">
+            <h3>Personnalisez vos préférences de cookies</h3>
+            <label>
+                <input type="checkbox" id="analytics-cookies"> Cookies d'analytique 
+            </label>
+            <label>
+                <input type="checkbox" id="advertising-cookies"> Cookies publicitaires 
+            </label>
+            <label>
+                <input type="checkbox" id="functional-cookies"> Cookies fonctionnels
+            </label>
+            <br><br>
+            <button id="save-settings">Sauvegarder les paramètres</button>
+            <button id="close-settings">Fermer</button>
+        </div>
+        </nav>
+    </footer>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2025 Mimi Coiffure. Tous droits réservés.</p>
+    </div>
+
+</body>
+</html>

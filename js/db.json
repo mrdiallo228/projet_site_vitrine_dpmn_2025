@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "Bryan",
+        "commentaire": "Un grand merci à mon coiffeur pour son travail impeccable ! Toujours à l’écoute de mes envies et tellement professionnel. Je suis ravi du résultat, chaque coupe est une vraie réussite. À bientôt !",
+        "categorie" :"coiffure",
+        "date": "2025-01-31 08:29"
+    },
+    {
+        "nom": "Ibrahima",
+        "commentaire": "Un immense merci à mon coiffeur pour sa gentillesse et son talent ! À chaque visite, il sait exactement ce que je veux et le résultat est toujours parfait. Une vraie confiance et un moment agréable à chaque fois !",
+        "categorie" :"coiffure",
+        "date": "2025-01-30 22:58"
+    },
+    {
+        "nom": "Hicham",
+        "commentaire": "Je suis ravi des produits capillaires recommandés par mon coiffeur ! Mes cheveux n'ont jamais été aussi doux et brillants. Une vraie différence depuis que je les utilise, je ne peux plus m'en passer !",
+        "categorie" :"Produit",
+        "date": "2025-01-20 23:29"
+    },
+    {
+        "nom": "Claire",
+        "commentaire": "Un énorme merci à mon maquilleur pour son talent et son professionnalisme ! Il a su sublimer mon visage avec des produits parfaits et une technique impeccable. Le résultat était magnifique et a tenu toute la journée. Une vraie magie à chaque séance !",
+        "categorie" :"Maquillage",
+        "date": "2025-02-05 10:29"
+    }
+]

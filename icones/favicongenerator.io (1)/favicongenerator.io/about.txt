@@ -1,0 +1,15 @@
+This favicon was generated using the following font: 
+
+
+Font Family: Roboto Mono
+
+Font Full Name: Roboto Mono Regular
+
+Font Designer: Google (Christian Robertson)
+
+Font Source: https://fonts.gstatic.com/s/robotomono/v23/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vqPQ--5Ip2sSQ.ttf
+
+Font License: Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+Font Version:Version 3.000
+
