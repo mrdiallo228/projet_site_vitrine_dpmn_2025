@@ -571,7 +571,7 @@ legend{
 .zone-meteo h3{
     font-size: 24px;
     margin: 0;
-    padding: 0;
+    padding: 20px 0 0;
   }
   
   .zone-meteo {
@@ -579,14 +579,16 @@ legend{
       padding-bottom: 0;
       opacity: 0.8;
       width: 100%;
+      
     }
    #weather{
       background-color:  #0F1D2B;
       margin: 0 130px;
+      margin-bottom: 30px;
    }
   #weather p {
-      font-size: 18px;
-      margin: 0;
+      font-size: 20px;
+      margin: 0 10px;
       color: #ffffff;
       padding: 2px;
   }
@@ -1142,5 +1144,8 @@ margin: 0 150px;
     }
     .mention_legale p{
         font-size: 16px;
+    }
+    .zone-meteo{
+        margin-bottom: 30px;
     }
 }
