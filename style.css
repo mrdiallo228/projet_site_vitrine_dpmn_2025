@@ -1,7 +1,6 @@
 
 body{
-    margin: 0;
-    font-family: 'OpenSans';
+    margin: 0;  
     background-color:rgba(169, 164, 164, 0.5);
 }
 
@@ -31,15 +30,12 @@ p{
 }
 h1{
     font-family: 'Roboto';
-    font-weight: 800;
 }
 h2, h3, h4, h5 ,h6{
     font-family: 'Roboto';
-    font-weight: 600;
 }
 
 /* ***********************LA BARRE DE NAVIGATION ET LE LOGO*********** */
-
 header {
     background-color: #f4a723;
     color: #fff;
@@ -51,9 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
-    
+    flex-wrap: wrap;   
 }
 #navbar, #bnt_reserver{
     align-items: center;
@@ -61,7 +55,7 @@ header {
 }
 #logo img {
     width: 150px;
-    padding-left: 80px;
+    padding-left: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -128,16 +122,15 @@ ul.menu{
 /* Définition de l'animation blink */
 @keyframes blink {
     0% {
-      opacity: 1; /* Le texte est visible au début */
+      opacity: 1; 
     }
     50% {
-      opacity: 0; /* Le texte devient invisible à mi-temps */
+      opacity: 0; 
     }
     100% {
-      opacity: 1; /* Le texte redevient visible à la fin */
+      opacity: 1; 
     }
-  }
-     
+  }  
   /* Animation du texte défilant */
   /*
   .titreRealisation{ 
@@ -147,10 +140,10 @@ ul.menu{
    /* Animation pour faire défiler le texte */
 @keyframes scroll-text {
     0% {
-      transform: translateX(100%); /* Débute à droite de l'écran */
+      transform: translateX(100%); 
     }
     100% {
-      transform: translateX(-100%); /* Finit à gauche de l'écran */
+      transform: translateX(-100%); 
     }
   }
 /**-------------------gestion des pages nos service et celle de a propos---------------*/
@@ -166,7 +159,7 @@ ul.menu{
     text-align: justify;
     margin: 0;
     margin: 0 170px;
-    color: #333;
+    color: black;
     font-family: 'OpenSans';
 }
 
@@ -180,7 +173,7 @@ strong{
     gap: 40px;
 }
 
-.personnel{
+.personnel {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -230,6 +223,10 @@ strong{
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
+}
+
+.carousel-column h3{
+    margin-top: 20px;
 }
 .TitreAvis h3{
     color: white;
@@ -348,10 +345,13 @@ h3 {
 }
 
 .carousel-column {
+    background-color: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     justify-content: space-around;
     height: 100%; 
-    object-fit: cover;    
+    object-fit: cover;   
+    padding: 0 20px; 
 }
 
 .carousel {
@@ -360,6 +360,7 @@ h3 {
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-top: 20px; 
+    width: 100%;
 }
 
 .carousel-inner {
@@ -375,14 +376,14 @@ h3 {
 }
 .slide img {
     max-width: 100%;
-    display: flex;
-    flex-direction: column;
     height: 100%;
     object-fit: cover; 
+    display: flex;
+    flex-direction: column;
 }
 
 input[type="radio"] {
-    display: none;
+    display: inline-block;
 }
 
 #slide1:checked ~ .carousel-inner {
@@ -414,7 +415,7 @@ input[type="radio"] {
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .carousel-controls label:hover {
@@ -427,19 +428,20 @@ input[type="radio"] {
     margin-top: 10px;
     gap: 5px;
 }
-
-.carousel-dots label {
+/*
+.carousel-dots label {  /*gestion de bouton permettant egalement de faire diffiler les photo
     width: 10px;
     height: 10px;
     background-color: #f4a723;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
-}
+} 
 
 input[type="radio"]:checked + label {
     background-color: #333;
-}
+    
+}*/
 
 /**--------Gestion de la page formulaire de contact---------------------**/
 .contact-form {
@@ -452,22 +454,23 @@ input[type="radio"]:checked + label {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 .contact-form p{
-    margin: 0 30px;
+    margin: 0 15px;
+    font-size: 20px;
   }
 .contact-form h2{
    font-size: 3rem;
+   margin-bottom: 15px;
   }
   
 .form-group {
     margin-bottom: 15px;
-    margin: 30px;
   }
   
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
   }
   
 .form-group input, select, textarea {
@@ -498,7 +501,6 @@ textarea {
 input[type="radio"] + label{
     margin-left: 0;
     padding-left: 0;
-    font-size: 28px;
   }
   
 .form-group-consent label {
@@ -549,7 +551,7 @@ legend{
     margin: auto;  
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(150px, 1fr));
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .avisClient {
@@ -577,7 +579,6 @@ legend{
       padding-bottom: 0;
       opacity: 0.8;
       width: 100%;
-     
     }
    #weather{
       background-color:  #0F1D2B;
@@ -797,14 +798,23 @@ footer {
 .card p em{
     color: white;
  }
-
+ /*----GESTIONS DES INFOS LEGALES-------*/
+ .mention_legale{
+margin: 0 150px;
+ }
+ .mention_legale h3{
+    font-size: 24px;
+}
+.mention_legale p{
+    font-size: 18px;
+}
 /**Gestion du format mobile(portrait et paysage) telephone et tablette-----------------**/
 @media (max-width: 1059px) {
 
     #navbar {
         flex-direction: row;
         align-items: flex-start;
-        height: 110px;
+        height: 80px;
     }
 
     .menu {
@@ -883,8 +893,8 @@ footer {
     margin: 6px;
   }
   .burger{
-    margin-top: 35px;
-    margin-right: 100px;
+    margin-top: 25px;
+    margin-right: 80px;
   }
 
   .about-image img{
@@ -908,17 +918,17 @@ footer {
     }
 /*-------------les diffrenttes pages de diffrents services y compris la page apropos------------*/
     .presentation_service{
-        margin: 0 95px;
+        margin: 0 15px;
     }
     .presentation_service h2, .contact-form h2{
         font-size: 30px;
         text-align: center;
     }
-    .presentation_service p{
+    .presentation_service p, .titreRealisation p{
         font-size: 18px;
         text-align: justify;
         margin: 0;
-        color: #333;
+        color: black;
     }
     strong{
         color: #000;
@@ -926,7 +936,7 @@ footer {
     .personnel {
         flex-direction: column;
         text-align: center;
-        margin: 0 80px;
+        margin: 0 15px;
         padding: 20px;
     }
 
@@ -966,14 +976,22 @@ footer {
         width: 100%;
     }
     
-    .nos_services,.contact-form  {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin: 0 95px;
+    .contact-form  {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 5px;
     }     
+    .nos_services  {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 0 10px;
+        }  
 
     .map {
         display: flex;
@@ -992,15 +1010,25 @@ footer {
     .avisClients-container {
         display: flex;
         flex-direction: column;
-        gap: 50px;
+        gap: 20px;
         width: 80%;
-        margin: auto;  
-        margin-bottom: 30px;
+    }
+
+    .avisClient {
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: justify;
+        align-items: center;
+    }
+    
+    .avisClient strong {
+        font-size: 16px;
     }
     .titreRealisation p{
         text-align: justify;
         font-size: 18px;
-        margin: 0 100px;
+        margin: 0 15px;
     }
 
     /***-------------gestion de footer pour les format mobile----------*/
@@ -1018,14 +1046,14 @@ footer {
        /* max-height: 40%;  cette propiété et sa valeur empechait de couvrir entirement l'ecran pour les cookies*/
     }
 
-    .footer-logo img {
-        max-width: 150px;
-        padding-top: 15px;
+    .footer-logo img, #logo img {
+        max-width: 100px;
+        padding: 5px 0;
     }
 
     #logo img {
-        max-width: 150px;
-        padding-top: 15px;
+        display: block;
+        margin-left: 0px;   
     }
     
     .footer-social h3, .footer-contact h3, .footer-legal h3, .footer-links h3 {
@@ -1071,13 +1099,22 @@ footer {
         font-size: 18px;
     }
     /*-----gestion carousel pour le format mobile ------*/
+    .container {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 0 15px;
+        gap: 50px;
+        object-fit: cover;
+    }
     .slide {
         flex: 1 0 100%;
-        height: 800px;
+        height: 100%;
         display: flex; 
         justify-content: center;
         align-items: center;
         overflow: hidden; 
+        object-fit: cover;
     }
     
     .carousel-column {
@@ -1088,5 +1125,22 @@ footer {
         width: 100%; 
         height: 100%; 
         object-fit: cover; 
+    }
+    #weather, .nosClients{
+        background-color:  #0F1D2B;
+        margin: 0 15px;
+     }
+    .nosClients{
+        margin: 0 15px;
+     }
+     /*----GESTIONS DES INFOS LEGALES-------*/
+ .mention_legale{
+    margin: 0 15px;
+     }
+     .mention_legale h3{
+        font-size: 20px;
+    }
+    .mention_legale p{
+        font-size: 16px;
     }
 }
