@@ -31,9 +31,11 @@ p{
 }
 h1{
     font-family: 'Roboto';
+    font-weight: 700;
 }
 h2, h3, h4, h5 ,h6{
     font-family: 'Roboto';
+    font-weight: 600;
 }
 
 /* ***********************LA BARRE DE NAVIGATION ET LE LOGO*********** */
@@ -73,7 +75,7 @@ header {
 .menu li a {
     text-decoration: none;
     color: rgb(23, 22, 22);
-    font-size: 28px;
+    font-size: 20px;
     margin-right: 40px;
     border-radius: 15px;
 }
@@ -98,7 +100,7 @@ ul.menu{
     padding-top: 0;
     padding-bottom: 2px;
     height: 40px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 #bnt_reserver:hover {
@@ -112,11 +114,11 @@ ul.menu{
     padding-top: 120px;
     background-color:  #0F1D2B;
     opacity: 0.8;
-    height: 20%;
+    height: 10%;
 }
 .titre-page h1{
    color: #f4a723;
-   font-size: 50px; 
+   font-size: 36px; 
    padding-bottom:35px ;
    animation: blink 2s step-end infinite; /* Animation clignotante */  
 }
@@ -156,7 +158,7 @@ ul.menu{
     text-align: center;
 }
 .presentation_service p, .contact-form p, #text p{
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
     margin: 0;
     margin: 0 170px;
@@ -192,9 +194,9 @@ strong{
     margin: 20px 20px;
 }
 
-.droit h1{
+.droit h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
 }
 .gauche img {
     width: 100%;
@@ -207,7 +209,7 @@ strong{
     border-radius: 8px;
 }
 .droit p, .gauche p, .service p {
-    font-size: 24px;
+    font-size: 16px;
     text-align: justify;
     color: #333;
     margin: 0;
@@ -215,12 +217,12 @@ strong{
 }
 .titreRealisation p{
     text-align: justify;
-    font-size: 24px;
+    font-size: 16px;
     margin: 0 170px;
     color: #333;
 }
 .droit h3, .gauche h3, .serviceh3, .presentation_service h3, .titreRealisation h3, #visite h3, .Titre_commentaire , .TitreAvis, .carousel-column h3{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
@@ -233,14 +235,14 @@ strong{
     color: white;
 }
 .droit h4, .gauche h4 {
-    font-size: 26px;
+    font-size: 18px;
     text-align: center;
     padding-top: 20px;
     margin: 0;
 }
 .gauche h3, .droit h3{
         margin-bottom: 30px;
-        font-size: 30px;
+        font-size: 20px;
     }
 /*------------------------ gestion dde lire la suite-----------------------------*/
 .read-more-check {
@@ -457,7 +459,7 @@ input[type="radio"]:checked + label {
   }
 .contact-form p{
     margin: 0 15px;
-    font-size: 20px;
+    font-size: 16px;
   }
 .contact-form h2{
    font-size: 3rem;
@@ -526,6 +528,11 @@ legend{
     text-align: center;
     margin: 10px;
     }
+    #adresse h4{
+        font-family: 'Roboto';
+        text-align: center;
+        margin: 10px;
+        }
 
     /**-----------LES AVIS DE NOS CLIENTS----------------------- */
 .nosClients {
@@ -571,7 +578,7 @@ legend{
 }
 /*-----------------gestion de la météo---------------*/
 .zone-meteo h3{
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     padding: 20px 0 0;
   }
@@ -589,14 +596,14 @@ legend{
       margin-bottom: 30px;
    }
   #weather p {
-      font-size: 20px;
+      font-size: 16px;
       margin: 0 10px;
       color: #ffffff;
       padding: 2px;
   }
   #weather h3{
       color: #f4a723;
-      font-size: 28px;
+      font-size: 20px;
       margin: 10px;
   }
   
@@ -617,7 +624,7 @@ footer {
 .footer-container h3 {
     color: black;
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 .footer-container div {
@@ -629,7 +636,7 @@ footer {
     text-align: center;
    margin: 0;
    padding: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer-logo img {
@@ -644,7 +651,7 @@ footer {
     padding: 0;
 }
 .footer-links h3,.footer-legal h3,.footer-social h3,.footer-contact h3 {
-   font-size: 18px;
+   font-size: 20px;
    padding: 0;
    margin: 0;
    text-decoration: underline;
@@ -789,7 +796,7 @@ footer {
     border-radius: 10px;
     background-color: #f4a723;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
     
 }
@@ -797,7 +804,7 @@ footer {
     margin: 5px;
     padding: 5px ;
     color: #000;
-    font-size: 28px;
+    font-size: 16px;
 }
 .card p em{
     color: white;
@@ -807,7 +814,7 @@ footer {
 margin: 0 150px;
  }
  .mention_legale h3{
-    font-size: 24px;
+    font-size: 20px;
 }
 .mention_legale p{
     font-size: 18px;
@@ -919,6 +926,16 @@ margin: 0 150px;
         font-size: 0.9em;
         cursor: pointer;
         transition: 0.3s ease-in-out;
+    }
+    /*------------TITRE MES PAGES-------------------*/
+    .titre-page h1{
+font-size: 28px;
+    }
+    .page-maquillage{
+        height: 20px;
+    }
+    .page-maquillage h1{
+       justify-content: center;
     }
 /*-------------les diffrenttes pages de diffrents services y compris la page apropos------------*/
     .presentation_service{
@@ -1101,7 +1118,6 @@ margin: 0 150px;
     }
     .footer-bottom p {
         font-size: 12px;
-        text-align: center;
     }
     .read-more-btn {
         display: inline-block;
@@ -1114,7 +1130,7 @@ margin: 0 150px;
         margin: 5px;
         padding: 5px ;
         color: #000;
-        font-size: 18px;
+        font-size: 12px;
     }
     /*-----gestion carousel pour le format mobile ------*/
     .container {
@@ -1156,7 +1172,7 @@ margin: 0 150px;
     margin: 0 15px;
      }
      .mention_legale h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .mention_legale p{
         font-size: 16px;
