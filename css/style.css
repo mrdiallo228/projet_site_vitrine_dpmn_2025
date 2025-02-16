@@ -538,7 +538,7 @@ legend{
     /**-----------LES AVIS DE NOS CLIENTS----------------------- */
 .nosClients {
     padding: 10px;
-    background-image:url(img/photo_fond_nos-clients_disent.jpg);
+    background-image:url(/img/photo_fond_nos-clients_disent.jpg);
     background-size: cover;
     margin-bottom: 20px;
    margin: 0 110px;
