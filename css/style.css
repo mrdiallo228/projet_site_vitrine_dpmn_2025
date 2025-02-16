@@ -114,7 +114,7 @@ ul.menu{
     padding-top: 120px;
     background-color:  #0F1D2B;
     opacity: 0.8;
-    height: 10%;
+    height: 5%;
 }
 .titre-page h1{
    color: #f4a723;
@@ -929,14 +929,10 @@ margin: 0 150px;
     }
     /*------------TITRE MES PAGES-------------------*/
     .titre-page h1{
-font-size: 30px;
+        font-size: 30px;
+        
     }
-    .page-maquillage{
-        height: 20px;
-    }
-    .page-maquillage h1{
-       justify-content: center;
-    }
+  
 /*-------------les diffrenttes pages de diffrents services y compris la page apropos------------*/
     .presentation_service{
         margin: 0 15px;

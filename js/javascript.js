@@ -48,8 +48,7 @@ const apiKey = '7b69f8df42046728f5a5214a1f96f8ae';
       obtenirMeteo();
       showCookieBanner();
     });
-   
-
+    
   
     function getCookieConsent() {
       return JSON.parse(localStorage.getItem('cookieConsent'));
