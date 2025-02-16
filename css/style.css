@@ -100,7 +100,7 @@ ul.menu{
     padding-top: 0;
     padding-bottom: 2px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 #bnt_reserver:hover {
@@ -154,11 +154,11 @@ ul.menu{
     margin: 0 180px;
 }
 .presentation_service h2, .contact-form h2{
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
 }
 .presentation_service p, .contact-form p, #text p{
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
     margin: 0;
     margin: 0 170px;
@@ -196,7 +196,8 @@ strong{
 
 .droit h2{
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
+    justify-content: center;
 }
 .gauche img {
     width: 100%;
@@ -209,7 +210,7 @@ strong{
     border-radius: 8px;
 }
 .droit p, .gauche p, .service p {
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
     color: #333;
     margin: 0;
@@ -217,32 +218,32 @@ strong{
 }
 .titreRealisation p{
     text-align: justify;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 170px;
     color: #333;
 }
 .droit h3, .gauche h3, .serviceh3, .presentation_service h3, .titreRealisation h3, #visite h3, .Titre_commentaire , .TitreAvis, .carousel-column h3{
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     padding-bottom: 10px;
     margin: 0;
 }
 
 .carousel-column h3{
-    margin-top: 20px;
+    margin-top: 28px;
 }
 .TitreAvis h3{
     color: white;
 }
 .droit h4, .gauche h4 {
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     padding-top: 20px;
     margin: 0;
 }
 .gauche h3, .droit h3{
         margin-bottom: 30px;
-        font-size: 20px;
+        font-size: 28px;
     }
 /*------------------------ gestion dde lire la suite-----------------------------*/
 .read-more-check {
@@ -459,10 +460,10 @@ input[type="radio"]:checked + label {
   }
 .contact-form p{
     margin: 0 15px;
-    font-size: 16px;
+    font-size: 20px;
   }
 .contact-form h2{
-   font-size: 3rem;
+   font-size: 32px;
    margin-bottom: 15px;
   }
   
@@ -574,11 +575,11 @@ legend{
 }
 
 .avisClient strong {
-    font-size: 16px;
+    font-size: 20px;
 }
 /*-----------------gestion de la météo---------------*/
 .zone-meteo h3{
-    font-size: 20px;
+    font-size: 28px;
     margin: 0;
     padding: 20px 0 0;
   }
@@ -596,14 +597,14 @@ legend{
       margin-bottom: 30px;
    }
   #weather p {
-      font-size: 16px;
+      font-size: 20px;
       margin: 0 10px;
       color: #ffffff;
       padding: 2px;
   }
   #weather h3{
       color: #f4a723;
-      font-size: 20px;
+      font-size: 28px;
       margin: 10px;
   }
   
@@ -624,7 +625,7 @@ footer {
 .footer-container h3 {
     color: black;
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .footer-container div {
@@ -651,7 +652,7 @@ footer {
     padding: 0;
 }
 .footer-links h3,.footer-legal h3,.footer-social h3,.footer-contact h3 {
-   font-size: 20px;
+   font-size: 24px;
    padding: 0;
    margin: 0;
    text-decoration: underline;
@@ -699,7 +700,7 @@ footer {
 }
 .mention_legale p{
     text-align: justify;
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
 }
 
@@ -718,7 +719,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 20px;
     z-index: 9999;
     display: none;
   }
@@ -730,7 +731,7 @@ footer {
     padding: 10px 20px;
     cursor: pointer;
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 5px;
   }
 
@@ -796,15 +797,14 @@ footer {
     border-radius: 10px;
     background-color: #f4a723;
     text-align: center;
-    font-size: 16px;
-    width: 80%;
-    
+    font-size: 20px;
+    width: 80%; 
 }
 .card p{
     margin: 5px;
     padding: 5px ;
     color: #000;
-    font-size: 16px;
+    font-size: 20px;
 }
 .card p em{
     color: white;
@@ -814,10 +814,10 @@ footer {
 margin: 0 150px;
  }
  .mention_legale h3{
-    font-size: 20px;
+    font-size: 28px;
 }
 .mention_legale p{
-    font-size: 18px;
+    font-size: 20px;
 }
 /**Gestion du format mobile(portrait et paysage) telephone et tablette-----------------**/
 @media (max-width: 1059px) {
@@ -860,7 +860,7 @@ margin: 0 150px;
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     display: block;
     transition: 0.3s;
@@ -868,14 +868,14 @@ margin: 0 150px;
 
   #bnt_reserver{
     background-color: #0a0a0a;
-    font-size: 24px; 
+    font-size: 20px; 
    padding-left: 0;
     margin-left:90px;
     padding-top: 0;
     }
   
   #bnt_reserver a{
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     justify-content: center;
     text-align: justify;
@@ -929,7 +929,7 @@ margin: 0 150px;
     }
     /*------------TITRE MES PAGES-------------------*/
     .titre-page h1{
-font-size: 28px;
+font-size: 30px;
     }
     .page-maquillage{
         height: 20px;
@@ -942,11 +942,11 @@ font-size: 28px;
         margin: 0 15px;
     }
     .presentation_service h2, .contact-form h2{
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
     }
     .presentation_service p, .titreRealisation p{
-        font-size: 18px;
+        font-size: 17px;
         text-align: justify;
         margin: 0;
         color: black;
@@ -991,7 +991,7 @@ font-size: 28px;
         flex-direction: column-reverse; 
     }
     .droit p, .gauche p, .service p, .contact-form p{
-        font-size: 18px;
+        font-size: 17px;
         text-align: justify;
         color: #333;
         margin: 0;
@@ -1024,8 +1024,7 @@ font-size: 28px;
         }  
 
     .nos_service-accueil{
-        margin: 0 px;
-        
+        margin: 0 px;   
     }    
 
     .map {
@@ -1058,11 +1057,11 @@ font-size: 28px;
     }
     
     .avisClient strong {
-        font-size: 16px;
+        font-size: 17px;
     }
     .titreRealisation p{
         text-align: justify;
-        font-size: 18px;
+        font-size: 17px;
         margin: 0 15px;
     }
 
@@ -1104,7 +1103,7 @@ font-size: 28px;
     .footer-logo p{
         padding: 0;
         margin: 0;
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .footer-contact button {
@@ -1117,7 +1116,7 @@ font-size: 28px;
         text-align: center;
     }
     .footer-bottom p {
-        font-size: 12px;
+        font-size: 17px;
     }
     .read-more-btn {
         display: inline-block;
@@ -1130,7 +1129,7 @@ font-size: 28px;
         margin: 5px;
         padding: 5px ;
         color: #000;
-        font-size: 12px;
+        font-size: 17px;
     }
     /*-----gestion carousel pour le format mobile ------*/
     .container {
@@ -1172,10 +1171,10 @@ font-size: 28px;
     margin: 0 15px;
      }
      .mention_legale h3{
-        font-size: 18px;
+        font-size: 26px;
     }
     .mention_legale p{
-        font-size: 16px;
+        font-size: 17px;
     }
     .zone-meteo{
         margin-bottom: 30px;
