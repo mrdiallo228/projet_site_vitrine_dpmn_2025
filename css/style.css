@@ -928,9 +928,8 @@ margin: 0 150px;
         transition: 0.3s ease-in-out;
     }
     /*------------TITRE MES PAGES-------------------*/
-    .titre-page h1{
-        font-size: 30px;
-        
+    .titre-page h1,  .page-maquillage h1{
+        font-size: 24px;   
     }
   
 /*-------------les diffrenttes pages de diffrents services y compris la page apropos------------*/
